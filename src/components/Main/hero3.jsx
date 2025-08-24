@@ -5,7 +5,7 @@ import LinkedInimage from "../Images/LinkedIn.png";
 const Hero3 = () => {
   return (
     <>
-      <div className="w-[100vw] h-[20vh] flex">
+      <div className="w-[100vw] h-[22`vh] pb-[2vh] flex">
         <div className="h-full w-[75%] flex flex-col justify-end pb-[2vh] items-start pl-[9vw]">
           <p className="text-white text-[1.1rem]/7 pb-0 mb-0">Hi, I am</p>
           <p className="text-white text-[2rem]/7 pt-0 mt-0 font-sans-saref font-semibold">
