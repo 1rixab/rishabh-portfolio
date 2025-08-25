@@ -1,6 +1,6 @@
-import mailimage from "../Images/mail.png";
-import Githubimage from "../Images/Github.png";
-import LinkedInimage from "../Images/LinkedIn.png";
+import mailimage from "../Images/mailimage.png";
+import Githubimage from "../Images/githubimage.png";
+import LinkedInimage from "../Images/linkedinimage.png";
 
 const Hero3 = () => {
   return (
@@ -15,19 +15,19 @@ const Hero3 = () => {
             React Developer/ MERN Developer
           </h6>
         </div>
-        <div className="h-auto w-[24%] flex flex-col justify-evenly items-center">
+        <div className="h-auto w-[24%] flex flex-col justify-evenly pt-[1vh] items-center">
           <a href="mailto:rashiyadav1505@gmail.com" className="cursor-pointer">
-            <img src={mailimage} alt="EMail" />
+            <img className='w-[80%] h-auto' src={mailimage} alt="EMail" />
           </a>
 
           <a href="https://github.com/1rixab" className="cursor-pointer">
-            <img src={Githubimage} alt="GitHub Profile" />
+            <img className='w-[80%] h-auto' src={Githubimage} alt="GitHub Profile" />
           </a>
           <a
             href="https://www.linkedin.com/in/rishabh-yadav-455963261/"
             className="cursor-pointer"
           >
-            <img src={LinkedInimage} alt="LinkedIn Profile" />
+            <img className='w-[80%] h-auto' src={LinkedInimage} alt="LinkedIn Profile" />
           </a>
         </div>
       </div>

@@ -1,10 +1,7 @@
 import Navigation from "../Navbar/nav";
 import heroimage from "../Images/hero.png";
 import Hero2 from "./hero2";
-import Hero3 from "./hero3";
-import Mailimage from "../Images/mail.png";
-import Githubimage from "../Images/Github.png";
-import LinkedInimage from "../Images/LinkedIn.png";
+
 
 const MainHero = () => {
   return (
