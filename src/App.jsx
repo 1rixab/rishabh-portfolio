@@ -13,6 +13,7 @@ const App = () => {
       <About />
       <Wavydesign />
       <ServicesSection />
+      <Wavydesign />
     </div>
   );
 };
