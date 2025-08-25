@@ -2,7 +2,6 @@ import Navigation from "../Navbar/nav";
 import heroimage from "../Images/hero.png";
 import Hero2 from "./hero2";
 
-
 const MainHero = () => {
   return (
     <>
@@ -18,8 +17,6 @@ const MainHero = () => {
           />
 
           <Hero2 className="absolute bottom-0 w-full text-white bg-black/70 [clip-path:polygon(0_30%,100%_0,100%_100%,0_100%)]" />
-
-          
         </div>
       </div>
     </>
