@@ -1,10 +1,11 @@
+import Sectionheader from "../usableCom/SectionHeader";
+import Sectionbuttons from "../usableCom/Sectionsbuttons";
+
 const About = () => {
   return (
     <>
-      <div className="bg-gradient-to-b from-gray-200 via-gray-100 to-gray-200 w-full h-[58vh] px-[12vw] pt-[5vh] pb-[5vh] flex flex-col justify-between items-center">
-        <h3 className="text-[1.3em] font-mono border-[.3em] pl-[1.5em] pr-[1.5em] pt-[.3em] pb-[.3em] font-bold">
-          ABOUT ME
-        </h3>
+      <section className="bg-gradient-to-b from-gray-200 via-gray-100 to-gray-200 w-full h-[58vh] px-[12vw] pt-[5vh] pb-[5vh] flex flex-col justify-between items-center">
+        <Sectionheader title="ABOUT ME" />
         <p className="text-[.8em]/5 text-justify font-normal ">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
           itaque est ipsam, temporibus ad tempore mollitia veniam. Obcaecati
@@ -15,10 +16,13 @@ const About = () => {
           veniam. Obcaecati eaque excepturi nobis, assumenda fuga nihil
           molestiae officiis earum perspiciatis numquam? Sit.Lorem
         </p>
-        <button className="text-black font-semibold border-l-[.20em] border-r-[.20em] w-[40vw] cursor-pointer h-[5vh]">
-          EXPLORE
-        </button>
-      </div>
+        <Sectionbuttons
+          title='EXPLORE'
+          color="black"
+          width="40vw"
+          className="font-semibold h-[5vh]"
+        />
+      </section>
     </>
   );
 };

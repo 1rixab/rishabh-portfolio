@@ -1,4 +1,5 @@
 import Itberriesimage from "../Images/Itberries.png";
+import Sectionbuttons from "../usableCom/Sectionsbuttons";
 
 const Itberries = () => {
   return (
@@ -18,9 +19,7 @@ const Itberries = () => {
           provident explicabo quia magnam laborum illo ratione voluptates qui
           esse. doloribus provident explicabo.
         </p>
-        <button className="text-white border-l-[.15em] border-r-[.15em] w-[30vw] cursor-pointer">
-          MORE
-        </button>
+        <Sectionbuttons color="white" width="30vw" title='MORE' />
       </div>
     </>
   );

@@ -2,9 +2,10 @@ import About from "./components/Main/about";
 import MainHero from "./components/Main/mainhero";
 import "./App.css";
 import Itberries from "./components/Main/Itberries";
-import Wavydesign from "./components/Main/Wavydesign";
+import Wavydesign from "./components/usableCom/Wavydesign";
 import ServicesSection from "./components/Main/DDM";
 import Skills from "./components/Main/skills";
+import Contact from "./components/Main/contact";
 
 const App = () => {
   return (
@@ -16,6 +17,8 @@ const App = () => {
       <ServicesSection />
       <Wavydesign />
       <Skills />
+
+      <Contact/>
     </div>
   );
 };

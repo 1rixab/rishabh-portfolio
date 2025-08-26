@@ -17,6 +17,7 @@ import {
   SiMongodb,
   SiOpenai,
 } from "react-icons/si";
+import Sectionheader from "../usableCom/SectionHeader";
 
 export default function Skills() {
   const skills = [
@@ -78,9 +79,7 @@ export default function Skills() {
     <section className="w-full py-12 bg-gradient-to-b from-gray-200 via-gray-100 to-gray-200">
       {/* Title */}
       <div className="text-center mb-10">
-        <div className="inline-block border-5 font-mono border-black px-6 py-2 mb-[3rem]">
-          <span className="tracking-widest font-bold">SKILLS</span>
-        </div>
+        <Sectionheader title="SKILLS" className="mb-[3rem]" />
         <h2 className="text-3xl font-bold font-mono tracking-wide">
           USING NOW:
         </h2>
