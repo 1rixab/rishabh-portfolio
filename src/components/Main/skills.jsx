@@ -79,7 +79,7 @@ export default function Skills() {
       {/* Title */}
       <div className="text-center mb-10">
         <div className="inline-block border-5 font-mono border-black px-6 py-2 mb-[3rem]">
-          <span className="tracking-widest font-semibold">SKILLS</span>
+          <span className="tracking-widest font-bold">SKILLS</span>
         </div>
         <h2 className="text-3xl font-bold font-mono tracking-wide">
           USING NOW:
