@@ -4,6 +4,7 @@ import "./App.css";
 import Itberries from "./components/Main/Itberries";
 import Wavydesign from "./components/Main/Wavydesign";
 import ServicesSection from "./components/Main/DDM";
+import Skills from "./components/Main/skills";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Wavydesign />
       <ServicesSection />
       <Wavydesign />
+      <Skills />
     </div>
   );
 };
