@@ -20,7 +20,7 @@ const About = () => {
           title='EXPLORE'
           color="black"
           width="40vw"
-          className="font-semibold h-[5vh]"
+          className="font-semibold h-[5vh] w-[40vw]"
         />
       </section>
     </>

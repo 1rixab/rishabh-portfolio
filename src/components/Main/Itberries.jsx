@@ -19,7 +19,7 @@ const Itberries = () => {
           provident explicabo quia magnam laborum illo ratione voluptates qui
           esse. doloribus provident explicabo.
         </p>
-        <Sectionbuttons color="white" width="30vw" title='MORE' />
+        <Sectionbuttons color="white" width="30vw" title='MORE' className='w-[30vw]' />
       </div>
     </>
   );
