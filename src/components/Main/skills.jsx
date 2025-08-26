@@ -5,6 +5,7 @@ import {
   FaNodeJs,
   FaGithub,
   FaGitAlt,
+  FaLanguage,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -14,6 +15,7 @@ import {
   SiNextdotjs,
   SiTypescript,
   SiMongodb,
+  SiOpenai,
 } from "react-icons/si";
 
 export default function Skills() {
@@ -32,6 +34,7 @@ export default function Skills() {
     { name: "GitHub", icon: <FaGithub className="text-gray-800 w-16 h-16" /> },
     { name: "Vercel", icon: <SiVercel className="text-black w-16 h-16" /> },
     { name: "Git", icon: <FaGitAlt className="text-red-500 w-16 h-16" /> },
+    { name: "AI", icon: <SiOpenai className="text-black w-16 h-16" /> },
   ];
 
   const learning = [
@@ -51,6 +54,23 @@ export default function Skills() {
     {
       name: "MongoDB",
       icon: <SiMongodb className="text-green-600 w-16 h-16" />,
+    },
+  ];
+
+  const otherskills = [
+    {
+      name: "English (Upper Intermediate)",
+      icon: <FaLanguage className="text-purple-600 w-16 h-16" />,
+    },
+    {
+      name: "Excel",
+      icon: (
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/732/732220.png"
+          alt="Excel"
+          className="w-16 h-16"
+        />
+      ),
     },
   ];
 
@@ -93,6 +113,25 @@ export default function Skills() {
           >
             {skill.icon}
             <p className="text-lg font-medium">{skill.name}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* other skills Section */}
+      <div className="text-center mb-10 mt-[6vh]">
+        <h2 className="text-3xl font-bold font-mono tracking-wide">
+          OTHER SKILLS:
+        </h2>
+      </div>
+
+      <div className="grid grid-cols-2 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
+        {otherskills.map((oskill, index) => (
+          <div
+            key={index}
+            className="flex flex-col items-center text-center space-y-2 transition-transform hover:scale-110 duration-300"
+          >
+            {oskill.icon}
+            <p className="text-lg font-medium">{oskill.name}</p>
           </div>
         ))}
       </div>
