@@ -8,10 +8,12 @@ import Skills from "./components/Main/skills";
 import Contact from "./components/Main/contact";
 import Contactform from "./components/Main/contactform";
 import Footer from "./components/Footer/footer";
+import Navigation from "./components/Navbar/nav";
 
 const App = () => {
   return (
     <div className="flex flex-col items-center">
+      <Navigation />
       <MainHero />
       <Itberries />
       <About />
@@ -23,7 +25,7 @@ const App = () => {
       <Contact />
       <Wavydesign />
       <Contactform />
-      <Footer/>
+      <Footer />
     </div>
   );
 };

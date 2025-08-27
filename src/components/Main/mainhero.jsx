@@ -1,24 +1,42 @@
-import Navigation from "../Navbar/nav";
-import heroimage from "../Images/hero.png";
-import Hero2 from "./hero2";
+import herovideo from "../Videos/herovideo.mp4";
+import Hero3 from "./hero3";
+import { useEffect, useRef } from "react";
 
 const MainHero = () => {
   return (
     <>
-      <div className="relative bg-black w-full min-h-screen flex flex-col flex-grow items-center">
-        <div className="w-full">
-          <Navigation />
-        </div>
-        <div className="flex-grow flex items-end justify-center">
-          <img
-            className="h-[82vh] w-full object-cover mt-[3vh] block"
-            src={heroimage}
-            alt="heroimage"
-          />
+      <section className="relative h-[90vh] w-full">
+        {/* Background Video */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+        >
+          <source src={herovideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
 
-          <Hero2 className="absolute bottom-0 w-full text-white bg-black/70 [clip-path:polygon(0_30%,100%_0,100%_100%,0_100%)]" />
+        {/* Darker Overlay */}
+        <div className="absolute inset-0 bg-black/40 -z-10"></div>
+
+        {/* Hero Content */}
+        <div className="flex flex-col items-center justify-center h-full text-center text-white px-4">
+          <p className="text-xl text-white md:text-xl max-w-2xl font-sans drop-shadow-md">
+            My name is Rishabh
+          </p>
+          <h1 className="text-4xl md:text-6xl font-semibold drop-shadow-lg">
+            I'M A DEVELOPER
+          </h1>
+          <div className="flex items-center w-full justify-center pt-[1vh] pb-[1vh] pl-[25%] pr-[25%]">
+            <span className="flex-grow border-[0.1rem] mx-2"></span>
+            <span className="text-xl">&#10094;&#10094;&#10095;&#10095;</span>
+            <span className="flex-grow border-[0.1rem] mx-2"></span>
+          </div>
+          <Hero3 />
         </div>
-      </div>
+      </section>
     </>
   );
 };
