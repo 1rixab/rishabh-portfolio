@@ -6,6 +6,8 @@ import Wavydesign from "./components/usableCom/Wavydesign";
 import ServicesSection from "./components/Main/DDM";
 import Skills from "./components/Main/skills";
 import Contact from "./components/Main/contact";
+import Contactform from "./components/Main/contactform";
+import Footer from "./components/Footer/footer";
 
 const App = () => {
   return (
@@ -18,7 +20,10 @@ const App = () => {
       <Wavydesign />
       <Skills />
 
-      <Contact/>
+      <Contact />
+      <Wavydesign />
+      <Contactform />
+      <Footer/>
     </div>
   );
 };
