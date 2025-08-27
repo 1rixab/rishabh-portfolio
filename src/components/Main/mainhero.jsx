@@ -22,11 +22,11 @@ const MainHero = () => {
         <div className="absolute inset-0 bg-black/40 -z-10"></div>
 
         {/* Hero Content */}
-        <div className="flex flex-col items-center justify-center h-full text-center text-white px-4">
-          <p className="text-xl text-white md:text-xl max-w-2xl font-sans drop-shadow-md">
+        <div className="flex flex-col items-center justify-center h-full text-center text-white">
+          <p className="text-[1.7rem] text-white md:text-xl max-w-2xl font-sans drop-shadow-md">
             My name is Rishabh
           </p>
-          <h1 className="text-4xl md:text-6xl font-semibold drop-shadow-lg">
+          <h1 className="text-[2.5rem] md:text-6xl font-semibold drop-shadow-lg">
             I'M A DEVELOPER
           </h1>
           <div className="flex items-center w-full justify-center pt-[1vh] pb-[1vh] pl-[25%] pr-[25%]">
