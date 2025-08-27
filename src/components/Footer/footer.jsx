@@ -18,15 +18,21 @@ export default function Footer() {
         {/* Social Icons */}
         <div className="flex space-x-6 mt-4">
           <a
-            href="#"
+            href="tel:+918929524856"
             className="p-0.5 border-2 border-white rounded hover:bg-white hover:text-black transition"
           >
             <FaPhone size={25} />
           </a>
-          <a href="#" className="hover:bg-white hover:text-black transition">
+          <a
+            href="whatsapp://send?phone=918929524856&text=Hello%20Rishabh."
+            className="hover:bg-white hover:text-black transition"
+          >
             <FaWhatsapp className="font-bold" size={35} />
           </a>
-          <a href="#" className=" hover:bg-white hover:text-black transition">
+          <a
+            href="https://www.instagram.com/1rixab/"
+            className=" hover:bg-white hover:text-black transition"
+          >
             <FaInstagram size={35} />
           </a>
         </div>
