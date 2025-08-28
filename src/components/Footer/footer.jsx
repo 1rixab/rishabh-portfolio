@@ -7,10 +7,10 @@ export default function Footer() {
       <div className="flex flex-col items-center justify-center space-y-4">
         <a
           href="#top"
-          className="flex flex-col items-center space-y-1 hover:opacity-80 transition"
+          className="flex flex-col items-center space-y-1 hover:opacity-80 transition text-white"
         >
           <span className="text-xl font-bold">⌃</span>
-          <span className="text-xs tracking-widest uppercase font-semibold">
+          <span className="text-xs text-white tracking-widest uppercase font-semibold">
             Back to Top
           </span>
         </a>
@@ -21,19 +21,19 @@ export default function Footer() {
             href="tel:+918929524856"
             className="p-0.5 border-2 border-white rounded hover:bg-white hover:text-black transition"
           >
-            <FaPhone size={25} />
+            <FaPhone className='text-white' size={25} />
           </a>
           <a
             href="whatsapp://send?phone=918929524856&text=Hello%20Rishabh."
             className="hover:bg-white hover:text-black transition"
           >
-            <FaWhatsapp className="font-bold" size={35} />
+            <FaWhatsapp className="font-bold text-white" size={35} />
           </a>
           <a
             href="https://www.instagram.com/1rixab/"
             className=" hover:bg-white hover:text-black transition"
           >
-            <FaInstagram size={35} />
+            <FaInstagram className='text-white' size={35} />
           </a>
         </div>
 

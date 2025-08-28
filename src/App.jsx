@@ -9,11 +9,13 @@ import Contact from "./components/Main/contact";
 import Contactform from "./components/Main/contactform";
 import Footer from "./components/Footer/footer";
 import Navigation from "./components/Navbar/nav";
+import ListOverley from "./components/Main/Listoverley";
 
 const App = () => {
   return (
-    <div className="flex flex-col items-center">
-      <Navigation />
+    <div className="flex flex-col items-center relative">
+      <ListOverley className='fixed top-[9vh]'/>
+      <Navigation className="fixed" />
       <MainHero />
       <Itberries />
       <About />
