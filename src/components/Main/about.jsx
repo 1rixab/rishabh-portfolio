@@ -17,7 +17,7 @@ const About = () => {
           molestiae officiis earum perspiciatis numquam? Sit.Lorem
         </p>
         <Sectionbuttons
-          title='EXPLORE'
+          title="EXPLORE"
           color="black"
           width="40vw"
           className="font-semibold h-[5vh] w-[40vw]"

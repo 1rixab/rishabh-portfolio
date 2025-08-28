@@ -10,13 +10,28 @@ import Contactform from "./components/Main/contactform";
 import Footer from "./components/Footer/footer";
 import Navigation from "./components/Navbar/nav";
 import ListOverley from "./components/Main/Listoverley";
+import { useState } from "react";
 
 const App = () => {
+  let [Lvisible, setLvisible] = useState(true);
+  const listopenhandler = () => {
+    setLvisible(!Lvisible);
+  };
+  const listclosehandler = () => {
+    setLvisible((Lvisible = true));
+  };
+
   return (
     <div className="flex flex-col items-center relative">
-      <ListOverley className='fixed top-[9vh]'/>
-      <Navigation className="fixed" />
+      {!Lvisible && <ListOverley className="fixed top-[9vh]" />}
+      <Navigation
+        className="fixed"
+        trigeropenfunc={listopenhandler}
+        trigerclosefunc={listclosehandler}
+      />
+
       <MainHero />
+
       <Itberries />
       <About />
       <Wavydesign />

@@ -6,15 +6,17 @@ const Navigation = (props) => {
   let [isVisible, setisVisible] = useState(true);
   const hmbgclickhandler = () => {
     setisVisible(!isVisible);
+    props.trigeropenfunc()
   };
   const crossclickhandler = () => {
     setisVisible((isVisible = true));
+    props.trigerclosefunc()
   };
 
   return (
     <>
       <div
-        className={`main-nav-container w-full h-[9vh] flex justify-between items-center px-[7vw] bg-black ${props.className}`}
+        className={`main-nav-container z-50 w-full h-[9vh] flex justify-between items-center px-[7vw] bg-black ${props.className}`}
       >
         <img className="w-[8em]" src={Mysignimage} alt="logo" />
         {isVisible ? (
@@ -28,7 +30,7 @@ const Navigation = (props) => {
         ) : (
           <button
             onClick={crossclickhandler}
-            className="p-1 rounded-full bg-transparent hover:bg-gray-700"
+            className="rounded-full bg-transparent hover:bg-gray-700"
           >
             <AiOutlineClose className="text-white w-auto h-9" />
           </button>
@@ -39,3 +41,4 @@ const Navigation = (props) => {
 };
 
 export default Navigation;
+
