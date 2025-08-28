@@ -1,10 +1,10 @@
-import herologo from "../Images/herologo.png";
+import Mysignimage from "../Images/Mysignimage.png";
 
 const Navigation = () => {
   return (
     <>
-      <div className="main-nav-container w-full h-[10vh] flex justify-between items-center padding pr-[9vw] pl-[9vw] bg-black">
-        <img className="w-[2.5em]" src={herologo} alt="logo" />
+      <div className="main-nav-container w-full h-[9vh] flex justify-between items-center px-[7vw] bg-black">
+        <img className="w-[8em]" src={Mysignimage} alt="logo" />
         <button>
           <div className="space-y-1.5 ">
             <span className="block h-1 w-7 bg-white rounded-2xl"></span>

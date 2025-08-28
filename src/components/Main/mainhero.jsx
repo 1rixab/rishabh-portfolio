@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 const MainHero = () => {
   return (
     <>
-      <section className="relative h-[90vh] w-full">
+      <section className="relative h-[91vh] w-full">
         {/* Background Video */}
         <video
           autoPlay
