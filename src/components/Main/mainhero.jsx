@@ -34,7 +34,9 @@ const MainHero = () => {
             <span className="text-xl">&#10094;&#10094;&#10095;&#10095;</span>
             <span className="flex-grow border-[0.1rem] mx-2"></span>
           </div>
-          <Hero3 />
+          <div className="w-full flex justify-center pl-3">
+            <Hero3 />
+          </div>
         </div>
       </section>
     </>
