@@ -16,7 +16,7 @@ const About = () => {
           <br></br>My background includes experience in both
           <span className="font-bold"> international and domestic BPO</span>,
           which has strengthened my communication skills and adaptability. With
-          <span className="font-bold">strong problem-solving abilities</span>,
+          <span className="font-bold"> strong problem-solving abilities</span>,
           <span className="font-bold">
             {" "}
             upper-intermediate English proficiency
