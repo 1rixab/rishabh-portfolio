@@ -2,8 +2,8 @@ import Sectionbuttons from "../usableCom/Sectionsbuttons";
 
 const Contactform = () => {
   return (
-    <section className="flex w-full items-center justify-center py-[7vh] px-[15%] bg-gradient-to-b from-gray-200 via-gray-100 to-gray-200">
-      <form className="w-full max-w-2xl space-y-10">
+    <section className="flex w-full md:w-full items-center justify-center py-[7vh] px-[15%] bg-gradient-to-b from-gray-200 via-gray-100 to-gray-200">
+      <form className="w-full md:w-[40vw] max-w-2xl space-y-10">
         {/* Name */}
         <div>
           <input

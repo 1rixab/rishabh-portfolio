@@ -23,12 +23,12 @@ export default function ServicesSection() {
   ];
 
   return (
-    <section className="w-full bg-gradient-to-b from-gray-200 via-gray-100 to-gray-200 py-12">
-      <div className="max-w-4xl mx-auto px-[12vw] grid gap-12 md:gap-16 text-[.8em]/5 text-justify font-normal">
+    <section className="w-full bg-gradient-to-b from-gray-200 via-gray-100 to-gray-200 py-8">
+      <div className="max-w-4xl mx-auto px-[12vw] grid gap-2 md:gap-16 text-[.8em]/5 text-justify font-normal">
         {services.map((service, index) => (
           <div
             key={index}
-            className="flex flex-col sm:flex-row sm:items-start gap-6"
+            className="flex flex-col sm:flex-row sm:items-start gap-5"
           >
             <div className="my-[1vh]">
               <div className="flex">

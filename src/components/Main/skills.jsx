@@ -87,7 +87,7 @@ export default function Skills() {
       </div>
 
       {/* Skills Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-3xl mx-auto">
         {skills.map((skill, index) => (
           <div
             key={index}
@@ -105,7 +105,7 @@ export default function Skills() {
         </h2>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-3xl mx-auto">
         {learning.map((skill, index) => (
           <div
             key={index}
@@ -124,7 +124,7 @@ export default function Skills() {
         </h2>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-3xl mx-auto">
         {otherskills.map((oskill, index) => (
           <div
             key={index}

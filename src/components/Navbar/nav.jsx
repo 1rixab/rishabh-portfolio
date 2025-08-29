@@ -16,7 +16,7 @@ const Navigation = (props) => {
   return (
     <>
       <div
-        className={`main-nav-container z-50 w-full h-[9vh] flex justify-between items-center px-[7vw] bg-black ${props.className}`}
+        className={`main-nav-container sm:px-40 z-50 w-full h-[9vh] flex justify-between items-center px-[7vw] bg-black ${props.className}`}
       >
         <img className="w-[8em]" src={Mysignimage} alt="logo" />
         {isVisible ? (

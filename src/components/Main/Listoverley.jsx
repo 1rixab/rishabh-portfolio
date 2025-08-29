@@ -7,9 +7,9 @@ const ListOverley = (props) => {
     "My Resume",
   ];
   return (
-    <section className="w-full">
+    <section className={`w-full ${props.className}`}>
       <ul
-        className={`w-full bg-black z-50 pr-8 text-center text-[.8em] text-white ${props.className}`}
+        className={`w-full bg-black sm:w-[12%] sm:rounded-bl-[1em] sm:rounded-br-[1em] z-50 pr-8 text-center text-[.8em] text-white`}
       >
         {/* <li className="list-group-item">An active item</li>
       <li className="list-group-item">A second item</li>

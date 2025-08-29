@@ -5,13 +5,13 @@ const Itberries = () => {
   return (
     <>
       <div
-        className="bg-[#0f0e0e] flex flex-col pl-[12vw] pr-[12vw] pt-[5vh] pb-[5vh] justify-between items-center h-[57vh] w-full bg-[length:80vw_45vh] bg-top bg-no-repeat"
+        className="bg-[#0f0e0e] sm:bg-[length:25vw_50vh] sm:h-[35vh] sm:bg-right sm:items-start flex flex-col sm:px-40 pl-[12vw] pr-[12vw] pt-[5vh] pb-[5vh] justify-between items-center h-[57vh] w-full bg-[length:80vw_45vh] bg-top bg-no-repeat"
         style={{ backgroundImage: `url(${Itberriesimage})` }}
       >
         <h3 className="text-white text-[1.5em] font-semibold font-mono">
           IT BERRIES
         </h3>
-        <p className="text-white text-[.9em] text-justify">
+        <p className="text-white text-[.9em] text-justify sm:pr-30">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
           voluptas, assumenda quod, animi iste officia sequi sunt nisi odit,
           doloribus provident explicabo quia magnam laborum illo ratione
@@ -19,8 +19,16 @@ const Itberries = () => {
           provident explicabo quia magnam laborum illo ratione voluptates qui
           esse. doloribus provident explicabo.
         </p>
-        <Sectionbuttons color="white" width="30vw" title='MORE' className='w-[30vw]' />
+        <Sectionbuttons
+          color="white"
+          width="30vw"
+          title="MORE"
+          className="w-[30vw]"
+        />
       </div>
+
+
+      
     </>
   );
 };

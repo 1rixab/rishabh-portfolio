@@ -22,8 +22,8 @@ const App = () => {
   };
 
   return (
-    <div className="flex flex-col items-center relative">
-      {!Lvisible && <ListOverley className="fixed top-[9vh]" />}
+    <div className="flex flex-col items-center w-full relative">
+      {!Lvisible && <ListOverley className="fixed top-[9vh] sm:left-[78%]" />}
       <Navigation
         className="fixed"
         trigeropenfunc={listopenhandler}
