@@ -19,7 +19,7 @@ const MainHero = () => {
           <source src={herovideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        {/* <video
+        <video
           autoPlay
           muted
           loop
@@ -28,7 +28,7 @@ const MainHero = () => {
         >
           <source src={landscapevideo} type="video/mp4" />
           Your browser does not support the video tag.
-        </video> */}
+        </video>
 
         {/* Darker Overlay */}
         <div className="absolute sm:bg-black/10 inset-0 bg-black/40 -z-10"></div>
