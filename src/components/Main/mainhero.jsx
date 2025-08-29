@@ -19,7 +19,7 @@ const MainHero = () => {
           <source src={herovideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video
+        {/* <video
           autoPlay
           muted
           loop
@@ -28,7 +28,7 @@ const MainHero = () => {
         >
           <source src={landscapevideo} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
 
         {/* Darker Overlay */}
         <div className="absolute sm:bg-black/10 inset-0 bg-black/40 -z-10"></div>
@@ -41,7 +41,7 @@ const MainHero = () => {
           <h1 className="text-[2.5rem] md:text-6xl font-semibold drop-shadow-lg">
             I'M A DEVELOPER
           </h1>
-          <div className='flex justify-center'>
+          <div className="flex justify-center">
             <div className="flex w-40 items-center justify-center py-[1vh]">
               <span className="flex-grow border-[0.1rem] mx-2"></span>
               <span className="text-xl">&#10094;&#10094;&#10095;&#10095;</span>
