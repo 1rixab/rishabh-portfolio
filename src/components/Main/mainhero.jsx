@@ -7,7 +7,7 @@ import landscapevideo from "../Videos/landscape-mountain-video.mp4";
 const MainHero = () => {
   return (
     <>
-      <section className="relative h-[91vh] w-full sm:mt-[9vh]">
+      <section className="relative h-[91vh] s w-full sm:mt-[9vh]">
         {/* Background Video */}
         <video
           autoPlay
@@ -19,7 +19,7 @@ const MainHero = () => {
           <source src={herovideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video
+        <video  
           autoPlay
           muted
           loop
