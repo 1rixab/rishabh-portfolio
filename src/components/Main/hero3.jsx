@@ -24,7 +24,7 @@ const Hero3 = () => {
           />
         </a>
 
-        <a href="https://github.com/1rixab" className="p-0">
+        <a href="https://github.com/1rixab" className="pr-2">
           <img
             className="w-[80%] sm:w-[90%] h-auto cursor-pointer"
             src={Githubimage}
