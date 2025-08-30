@@ -11,6 +11,7 @@ import Footer from "./components/Footer/footer";
 import Navigation from "./components/Navbar/nav";
 import ListOverley from "./components/Main/Listoverley";
 import { useState } from "react";
+import { Element } from "react-scroll";
 
 const App = () => {
   let [Lvisible, setLvisible] = useState(true);
@@ -23,26 +24,37 @@ const App = () => {
 
   return (
     <div className="flex flex-col items-center w-full relative">
-      {!Lvisible && <ListOverley className="fixed top-[9vh] sm:left-[78%]" />}
+      {!Lvisible && (
+        <ListOverley
+          className="fixed top-[9vh] sm:left-[78%]"
+          linkOChandler={listclosehandler}
+        />
+      )}
       <Navigation
         className="fixed"
         trigeropenfunc={listopenhandler}
         trigerclosefunc={listclosehandler}
+        Lvisible={Lvisible}
       />
-
-      <MainHero />
-
+      <Element name="home" className="w-full">
+        <MainHero />
+      </Element>
       <Itberries />
-      <About />
+      <Element name="about">
+        <About />
+      </Element>
       <Wavydesign />
       <ServicesSection />
       <Wavydesign />
-      <Skills />
-
-      <Contact />
-      <Wavydesign />
-      <Contactform />
-      <Footer />
+      <Element name="skills" className="w-full">
+        <Skills />
+      </Element>
+      <Element name="contact" className="w-full">
+        <Contact />
+        <Wavydesign />
+        <Contactform />
+        <Footer />
+      </Element>
     </div>
   );
 };
