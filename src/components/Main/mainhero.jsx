@@ -1,8 +1,4 @@
-import herovideo from "../Videos/herovideo.mp4";
 import Hero3 from "./hero3";
-import { useEffect, useRef } from "react";
-import ListOverley from "./Listoverley";
-import landscapevideo from "../Videos/landscape-mountain-video.mp4";
 
 const MainHero = () => {
   return (
@@ -16,17 +12,17 @@ const MainHero = () => {
           playsInline
           className="absolute sm:hidden top-0 left-0 w-full h-full object-cover -z-10"
         >
-          <source src={herovideo} type="video/mp4" />
+          <source src="/public/herovideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video  
+        <video
           autoPlay
           muted
           loop
           playsInline
           className="absolute top-0 hidden sm:block left-0 w-full h-full object-cover -z-10"
         >
-          <source src={landscapevideo} type="video/mp4" />
+          <source src="/public/landscape-mountain-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 

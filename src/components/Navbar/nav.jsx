@@ -1,4 +1,3 @@
-import Mysignimage from "../Images/Mysignimage.png";
 import { AiOutlineClose } from "react-icons/ai"; // cross icon
 const Navigation = (props) => {
   return (
@@ -6,7 +5,11 @@ const Navigation = (props) => {
       <nav
         className={`main-nav-container sm:px-40 z-50 w-full h-[9vh] flex justify-between items-center px-[7vw] bg-black ${props.className}`}
       >
-        <img className="w-[8em]" src={Mysignimage} alt="logo" />
+        <img
+          className="w-[8em]"
+          src="/public/Images/Mysignimage.png"
+          alt="logo"
+        />
         {props.Lvisible ? (
           <button onClick={props.trigeropenfunc}>
             <div className="space-y-1">

@@ -1,6 +1,4 @@
-import mailimage from "../Images/mailimage.png";
-import Githubimage from "../Images/githubimage.png";
-import LinkedInimage from "../Images/linkedinimage.png";
+
 
 const Hero3 = () => {
   return (
@@ -9,7 +7,7 @@ const Hero3 = () => {
         <a href="mailto:rashiyadav1505@gmail.com" className="cursor-pointer">
           <img
             className="w-[80%] sm:w-[90%] h-auto"
-            src={mailimage}
+            src='/public/Images/mailimage.png'
             alt="EMail"
           />
         </a>
@@ -19,7 +17,7 @@ const Hero3 = () => {
         >
           <img
             className="w-[70%] sm:px-3 sm:w-[90%] h-auto"
-            src={LinkedInimage}
+            src='/public/Images/linkedinimage.png'
             alt="LinkedIn Profile"
           />
         </a>
@@ -27,7 +25,7 @@ const Hero3 = () => {
         <a href="https://github.com/1rixab" className="sm:pr-2">
           <img
             className="w-[80%] sm:w-[90%] h-auto cursor-pointer"
-            src={Githubimage}
+            src='/public/Images/githubimage.png'
             alt="GitHub Profile"
           />
         </a>
