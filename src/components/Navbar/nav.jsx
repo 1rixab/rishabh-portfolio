@@ -7,7 +7,7 @@ const Navigation = (props) => {
       >
         <img
           className="w-[8em]"
-          src="/public/Images/Mysignimage.png"
+          src="/Images/Mysignimage.png"
           alt="logo"
         />
         {props.Lvisible ? (

@@ -5,7 +5,7 @@ const Itberries = () => {
     <>
       <div
         className="bg-[#0f0e0e] sm:bg-[length:25vw_50vh] sm:h-[35vh] sm:bg-right sm:items-start flex flex-col sm:pl-40 sm:pr-30 pl-[12vw] sm:pt-7 pr-[12vw] py-[4vh] justify-between items-center h-[45vh] w-full bg-[length:75vw_40vh] bg-top bg-no-repeat"
-        style={{ backgroundImage: `url('/public/Images/Itberries.png')` }}
+        style={{ backgroundImage: `url('/Images/Itberries.png')` }}
       >
         <h3 className="text-white text-[1.5em] font-semibold font-mono">
           Self-taught Developer

@@ -7,7 +7,7 @@ const Hero3 = () => {
         <a href="mailto:rashiyadav1505@gmail.com" className="cursor-pointer">
           <img
             className="w-[80%] sm:w-[90%] h-auto"
-            src='/public/Images/mailimage.png'
+            src='/Images/mailimage.png'
             alt="EMail"
           />
         </a>
@@ -17,7 +17,7 @@ const Hero3 = () => {
         >
           <img
             className="w-[70%] sm:px-3 sm:w-[90%] h-auto"
-            src='/public/Images/linkedinimage.png'
+            src='/Images/linkedinimage.png'
             alt="LinkedIn Profile"
           />
         </a>
@@ -25,7 +25,7 @@ const Hero3 = () => {
         <a href="https://github.com/1rixab" className="sm:pr-2">
           <img
             className="w-[80%] sm:w-[90%] h-auto cursor-pointer"
-            src='/public/Images/githubimage.png'
+            src='/Images/githubimage.png'
             alt="GitHub Profile"
           />
         </a>

@@ -12,7 +12,7 @@ const MainHero = () => {
           playsInline
           className="absolute sm:hidden top-0 left-0 w-full h-full object-cover -z-10"
         >
-          <source src="/public/herovideo.mp4" type="video/mp4" />
+          <source src="/Videos/herovideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <video
@@ -22,7 +22,7 @@ const MainHero = () => {
           playsInline
           className="absolute top-0 hidden sm:block left-0 w-full h-full object-cover -z-10"
         >
-          <source src="/public/landscape-mountain-video.mp4" type="video/mp4" />
+          <source src="/Videos/landscape-mountain-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
